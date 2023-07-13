@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="discription" content="Site da barbearia Barber Shop, especializada em barba, cabelo e bigode">
+		<meta name="keywords" content="babershop, cabelo, barba, barbeiro, barbearia, barber">
+		<meta name="author" content="Felipe Silva - Frontend Software Developer">
+		<title>Barber Shop - Barba, Cabelo e Bigode modernos</title>
+		<!-- Normalize css reset -->
+		<link href="external/css/normalize.css" rel="stylesheet" type="text/css">
+		<!-- Font awesome 4.7 icons -->
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- Google Fonts - Open Sans, Girassol -->
+		<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+		<!-- owl carousel -->
+		<link href="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
+		<link href="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+		<!-- Local style -->
+		<link href="core/css/style.css" rel="stylesheet" type="text/css">
+		<link href="core/css/mq.css" rel="stylesheet" type="text/css">
+	</head>	
+	<body>
+		<div id="preloader" class="loader">
+			<div class="loader_svg">
+				<svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				   width="80px" height="80px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+				  <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+				    s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+				    c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"/>
+				  <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+				    C22.32,8.481,24.301,9.057,26.013,10.047z">
+				   <animateTransform attributeType="xml"
+				      attributeName="transform"
+				      type="rotate"
+				      from="0 20 20"
+				      to="360 20 20"
+				      dur="0.5s"
+				      repeatCount="indefinite"/>
+				   </path>
+	  			</svg>
+			</div>
+		</div>
+		<header class='menu-responsive'>
+			<div class="wrapper">
+				<h1><a href=""><img src="core/image/logo_.png" alt="logo barber shop"></a></h1>
+				<nav>
+					<ul>
+						<li><a href="#about">Sobre Nós</a></li>
+						<li><a href="#services">Nossos Serviços</a></li>
+						<li><a href="#price">Preços</a></li>
+						<li><a href="#barb">Barber</a></li>
+						<li><a href="#agen">Agendamento</a></li>
+					</ul>
+				</nav>
+				<div class="btn-responsive">
+					<div class="pipe1"></div>
+					<div class="pipe2"></div>
+					<div class="pipe3"></div>
+				</div>
+			</div>
+		</header>
+		<!-- slider carroseul -->
+		<div class="home">
+			<div class="slider">
+				<div class="slide1 active"></div>
+				<div class="slide2"></div>
+				<div class="slide3"></div>
+			</div>	
+			<div class="controls">
+				<div class="prev"><</div>
+				<div class="next">></div>
+			</div>
+		</div>
+		<main>
+		<!-- section #00 about -->
+			<section class="sec00" id="about">
+				<div class="wrapper flex00">
+					<div class="flex00-0 anim_top"><img src="core/image/about.png" alt="imagem barbearia"></div>
+					<div class="flex00-1 anim_top">
+						<h2>Sobre Nós</h2>
+						<p>Fundada em 1964, e tradicionalmente conhecida pelo público em geral, a <strong>Barbershop</strong> sempre foi frequentada pelas celebridades e autoridades públicas da região. Com os mais variados serviços oferecidos, sempre com qualidade impecável, tornou-se destaque nos diversos veículos especializados no seguimento ao longo das décadas.</p>
+						<h3>Aberto das <span>10h - 22h</span></h3>
+						<a href="#!" class="btn00">Agendar</a>
+					</div>
+				</div>
+			</section>
+			<!-- section #01 gallery -->
+			<section class="sec01">
+				<picture><img src="core/image/gallery_00.jpg" alt="material de barbearia"></picture>
+				<picture><img src="core/image/gallery_01.jpg" alt="cortando cabelo"></picture>
+				<picture><img src="core/image/gallery_02.jpg" alt="barbearia e barbeiros"></picture>
+				<picture><img src="core/image/gallery_03.jpg" alt="fazendo a barba"></picture>
+			</section>
+			<!-- section #02 nossos services -->
+			<section class="sec02" id="services">
+				<div class="wrapper">
+					<h2 class="htop">Nossos Serviços</h2>
+					<p class="ptop">Conheça nossos principais serviços. Usamos os métodos mais modernos do mercado</p>
+				</div>
+				<div class="wrapper flex01 anim_reveal">
+					<div class="box00">
+						<div class="box00-0"><img src="core/image/service_00.jpg" alt="barbeando homem"></div>
+						<div class="box00-1">
+							<h4>Barbear suave</h4>
+							<p>Usamos técnicas para proporcionar um
+							barbear suave para as peles mais sensíveis</p>
+						</div>
+					</div>
+					<div class="box00">
+						<div class="box00-0"><img src="core/image/service_01.jpg" alt="cortando cabelo"></div>
+						<div class="box00-1">
+							<h4>Cortes estilosos</h4>
+							<p>Trabalhamos com os cortes mais modernos e estilosos do momento. Fique sempre
+							na moda</p>
+						</div>
+					</div>
+					<div class="box00">
+						<div class="box00-0"><img src="core/image/service_02.jpg" alt="homem aparando barba"></div>
+						<div class="box00-1">
+							<h4>Aparar barba</h4>
+							<p>Matenha sua barba em dia com os profissionais mais qualificados do mercado</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section #03 prices -->
+			<section class="sec03" id="price">
+				<div class="wrapper">
+					<h2 class="htop">Preços</h2>
+					<p class="ptop">O melhor custo benefício da cidade. Qualidade e tradição</p>
+				</div>
+				<div class="wrapper anim_left">
+					<div class="price00">
+						<div class="price01">
+							<div class="box01">
+								<div class="box00-1"><div class="box00-10"><i class="fa fa-scissors" aria-hidden="true"></i><span>Barba</span></div><div class="box00-11"><span>R$45,00</span></div></div>
+								<div class="box00-1"><div class="box00-10"><i class="fa fa-scissors" aria-hidden="true"></i><span>Corte</span></div><div class="box00-11"><span>R$55,00</span></div></div>
+								<div class="box00-1"><div class="box00-10"><i class="fa fa-scissors" aria-hidden="true"></i><span>Corte e Tingimento capilar</span></div><div class="box00-11"><span>R$85,00</span></div></div>
+								<div class="box00-1"><div class="box00-10"><i class="fa fa-scissors" aria-hidden="true"></i><span>Aromatizante Little Trees</span></div><div class="box00-11"><span>R$15,00</span></div></div>
+							</div>
+							<div class="box01">
+								<div class="box00-1 fix"><div class="box00-10"><i class="fa fa-scissors" aria-hidden="true"></i><span>Manicure e Podologia</span></div><div class="box00-11"><span>R$60,00</span></div></div>
+								<div class="box00-1"><div class="box00-10"><i class="fa fa-scissors" aria-hidden="true"></i><span>Faxina na cara</span></div><div class="box00-11"><span>R$35,00</span></div></div>
+								<div class="box00-1"><div class="box00-10"><i class="fa fa-scissors" aria-hidden="true"></i><span>Depilação</span></div><div class="box00-11"><span>R$65,00</span></div></div>
+								<div class="box00-1"><div class="box00-10"><i class="fa fa-scissors" aria-hidden="true"></i><span>Chopp Eisenbahn - 500ml</span></div><div class="box00-11"><span>R$25,00</span></div></div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</section>
+			<!-- section #04 barber -->
+			<section class="sec04" id="barb">
+				<div class="wrapper">
+					<h2 class="htop">Barber</h2>
+					<p class="ptop">Conheça o nosso time de especialistas, que está há vários anos a frente do nosso barbershop</p>
+				</div>
+				<div class="wrapper flex02">
+					<div class="box02 anim_left">
+						<div><img src="core/image/team_00.jpg" alt="" class="im00"></div>
+						<h4>Daniel Salazar</h4>
+						<p>Sênior Barber</p>
+					</div>
+					<div class="box02 anim_top2">
+						<div><img src="core/image/team_01.jpg" alt="" class="im01"></div> 
+						<h4>Fernando Nova</h4>
+						<p>Especialista Barber</p>
+					</div>
+					<div class="box02 anim_right">
+						<div><img src="core/image/team_02.jpg" alt="" class="im02"></div>
+						<h4>Roberto da Silva</h4>
+						<p>Júnior Barber</p>
+					</div>
+				</div>
+			</section>
+			<!-- section #05 testemunhos -->
+			<section class="sec05">
+				<div class="wrapper">
+					<h2 class="htop">O que dizem nossos clientes</h2>
+					<p class="ptop">A qualidade e a tradição da nossa barbearia faz toda a diferença para eles na escolha</p>
+				</div>
+				<div class="wrapper">
+					<div id="customers-t" class="owl-carousel owl-theme">
+						<div class="testemonils">
+							<img src="core/image/testem_00.jpg" alt="rosto de homem com barba">
+							<blockquote>
+								<p>Fico feliz ao ir na <strong>barbershop</strong> devido a alto padrão de atendimento e a qualidade dos profissionais, além do chopp
+								diferenciado que não pode faltar</p>
+							</blockquote>
+							<div>
+							<p><strong>Carlos Rosa e Silva</strong><span>Engenheiro Civil - APK</span></p>
+							</div>
+						</div>
+						<div class="testemonils">
+							<img src="core/image/testem_01.jpg" alt="rosto de homem com barba">
+							<blockquote>
+								<p>Eu conheci a <strong>barbershop</strong> através de amigos. Foi amor a primeira vista, eu me sinto em casa, o pessoal é muito bacana e profissional, eu nunca mais vou em outro lugar</p>
+							</blockquote>
+							<div>
+							<p><strong>Eduardo Rangel</strong><span>CEO & Fundador - Fish9</span></p>
+							</div>
+						</div>
+						<div class="testemonils">
+							<img src="core/image/testem_02.jpg" alt="rosto de homem com barba">
+							<blockquote>
+								<p>Meu pai me trazia aqui quando eu era criança, a <strong>barbershop</strong> já é parte da tradição da família, todos os domingos pela manhã estamos presentes, eu, meu pai e meus filhos</p>
+							</blockquote>
+							<div>
+							<p><strong>Marcos Brigadeiro</strong><span>Médico - Real Doctor Care</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section #06 form -->
+			<section class="sec06" id="agen">
+				<div class="wrapper flex03">
+					<div class="flex03-00 anim_left">
+						<h2 class="htop">Faça seu agendamento</h2>
+						<div class="boxform">
+							<form action="">
+								<input type="text" placeholder="Nome:" required>
+								<input type="email" placeholder="Email:">
+								<input type="tel" placeholder="Telefone: 00-9-0000-0000" required>
+								<div class="boxselect">
+									<label for="horarios">Horário:</label>
+									<select id="horarios" required>
+										<option value="selecionarh" selected>Selecionar horário</option>
+										<option value="10h11h">10h-11h</option>
+										<option value="11h12h">11h-12h</option>
+										<option value="12h13h">12h-13h</option>
+										<option value="13h14h">13h-14h</option>
+										<option value="14h15h">14h-15h</option>
+										<option value="15h16h">15h-16h</option>
+										<option value="16h17h">16h-17h</option>
+										<option value="17h18h">17h-18h</option>
+										<option value="18h19h">19h-20h</option>
+										<option value="19h20h">20h-21h</option>
+										<option value="20h21h">21h-22h</option>
+									</select>	
+								</div>
+								<div class="boxcheck"><input type="checkbox" id="check" name="maior18" value="maior18" checked><label for="check">Sou maior de 18 anos</label></div>
+								<textarea name="" id="" cols="30" rows="10" placeholder="Escreva informações adicionais aqui..."></textarea>
+								<input type="submit" value="Agendar">
+							</form>
+						</div>
+					</div>
+					<!-- andress and contact -->
+					<div class="flex03-01 anim_right">
+						<h2 class="htop">Conheça nosso studio:</h2>
+						<p>Rua Nova nº 1720 - Centro - SP - 15000-000</p>
+						<h2 class="htop">Entre em contato:</h2>
+						<p><span>+55 </span>(11)-9-0000-0000</p>
+						<p>barbershop@barbershop.com</p>
+						<h2 class="htop">Horário de funcionamento:</h2>
+						<p>Segunda - Sexta<span> 10h - 22h</span></p>
+						<p>Sábado - Domingo<span> 10h - 18h</span></p>
+						<p>Feriado<span> 10h - 15h</span></p>
+					</div>
+				</div>	
+			</section>
+		</main>
+		<footer>
+			<div class="wrapper flex04">
+				<div class="flex04-00">
+					<a href="#!"><img src="core/image/logo_.png" alt="logo barber shop"></a>
+					<p>Fundada em 1964, e tradicionalmente conhecida pelo público em geral, a <strong>Barbershop</strong> sempre foi frequentada pelas celebridades e autoridades públicas da região. Com os mais variados serviços oferecidos, sempre com qualidade impecável, tornou-se destaque nos diversos veículos especializados no seguimento ao longo das décadas.</p>
+					<div>
+						<a href="#!" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#!" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#!" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					</div>
+				</div>
+
+				<div class="flex04-01">
+					<h5>Informações</h5>
+					<ul>
+						<li><a href="#!">Sobre nós</a></li>
+						<li><a href="#!">Serviços</a></li>
+						<li><a href="#!">Testemunhos</a></li>
+					</ul>
+				</div>
+
+				<div class="flex04-02">
+					<h5>Serviços</h5>
+					<ul>
+						<li><a href="#!">Barba</a></li>
+						<li><a href="#!">Corte</a></li>
+						<li><a href="#!">Depilação</a></li>
+					</ul>
+				</div>
+
+				<div class="flex04-03">
+					<h5>Nos siga</h5>
+					<ul>
+						<li><a href="#!">Instagram</a></li>
+						<li><a href="#!">Facebook</a></li>
+						<li><a href="#!">Twitter</a></li>
+					</ul>
+				</div>
+			</div>
+			<p>Copyright ©2020 All rights reserved</p>
+		</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- start cross browser IE 6,7,8 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+	<!-- end cross browser IE 6,7,8 -->
+	<!-- owl carousel CDN -->
+	<script src="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.min.js" type="text/javascript"></script>
+		<!-- scroll reveal -->
+	<script src="https://unpkg.com/scrollreveal@4"></script>
+	<script src="external/js/jquery.waypoints.min.js"></script>
+	<script src="core/js/script.js"></script>
+	</body>	
+</html>
